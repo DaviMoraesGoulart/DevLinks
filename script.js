@@ -5,7 +5,7 @@ function Togglemode() {
     const img = document.querySelector("#profile img")
 
     if(html.classList.contains("light")) {
-        img.setAttribute('src', './img/custom_avatar.png')
+        img.setAttribute('src', './img/custom_avatar_light.png')
         img.setAttribute('alt', 'Foto Perfil Claro')
     } else {
         img.setAttribute('src', './img/custom_avatar_dark_purple.png')
